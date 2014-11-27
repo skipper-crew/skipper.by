@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HyperComments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-15 16:14+0300\n"
+"PO-Revision-Date: 2012-08-15 16:58+0300\n"
+"Last-Translator: neman <neman1989@yandex.ru>\n"
+"Language-Team:  <neman1989@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: /var/www/workpressblog/wp-content/plugins/hypercomments\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /var/www/workpressblog/wp-content/plugins/hypercomments\n"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/hypercomments.php:319
+msgid "Options saved"
+msgstr "Настройки сохранены"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/hypercomments.php:342
+msgid "You must <a href=\"edit-comments.php?page=hypercomments\">configure the plugin</a> to enable HyperComments."
+msgstr "Вы должны <a href=\"edit-comments.php?page=hypercomments\">настроить плагин</a> чтобы включить HyperComments."
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:7
+msgid "HyperComments"
+msgstr "Гиперкомментарии"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:10
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:12
+msgid "Login"
+msgstr "Войти"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:14
+msgid "Comments"
+msgstr "Комментарии"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:14
+msgid "Admin"
+msgstr "Управление"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:14
+msgid "Settings"
+msgstr "Настройки"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:29
+msgid "To start using the plug-HyperComments, to authorize a Google Account"
+msgstr "Чтобы начать использовать плагин HyperComments, необходимо авторизироваться через Google аккаунт"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:30
+msgid "Login with Google"
+msgstr "Авторизироваться через  Google"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:67
+msgid "HTML - selector to insert the counter comments"
+msgstr "HTML - cелектор для вставки счетчика комментариев"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:75
+msgid "HyperComments under each article"
+msgstr "HyperComments под каждой статьей"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:80
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:92
+msgid "on/off"
+msgstr "вкл/выкл"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:87
+msgid "Synchronizing users and comments"
+msgstr "Синхронизировать пользователей и комментарии"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:99
+msgid "Site's root  is in the subdirectory"
+msgstr "Корень сайта находится в поддиректории"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:104
+msgid "yes/no"
+msgstr "да/нет"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:105
+msgid "Mark the checkbox if the site is located in a subdirectory and you import comments via hypercomments.com website"
+msgstr "Поставте галочку если сайт находится в поддиректории и  Вы импортируете комментарии через сайт hypercomments.com"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:117
+msgid "Update Options"
+msgstr "Обновить настройки"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:124
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:127
+msgid "Import comments to HyperComments"
+msgstr "Импортировать комментарии в HyperComments"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:138
+#, fuzzy
+msgid "Formation file"
+msgstr "Формирование файла комментариев"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:139
+#, fuzzy
+msgid "Import"
+msgstr "Экспорт"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:266
+msgid "You need to create a folder \"uploads\" with 777 permissions in the \"/path/to/wordpress/wp-content\" directory."
+msgstr "Вы должны создать папку \"uploads\" с правами 777 в директории \"/path/to/wordpress/wp-content\""
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:279
+msgid "Comments will be imported at least 15 minutes."
+msgstr "Комментарии будут импортированы в течении 15 минут"
+
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:287
+#: /var/www/workpressblog/wp-content/plugins/hypercomments/manage.php:295
+msgid "Error when trying to generate XML"
+msgstr "Ошибка при попытке сформировать XML"
+
+#~ msgid "Error writing XML"
+#~ msgstr "Ошибка записи XML"
+
+#~ msgid "Failed to generate XML"
+#~ msgstr "Ошибка создания XML"
+
+#~ msgid "Sending a request to import comments..."
+#~ msgstr "Отправка запроса на импорт комментариев"
+
+#~ msgid "Export comments to HyperComments"
+#~ msgstr "Импортировать комментарии в HyperComments"
+
+#~ msgid "Comments imported."
+#~ msgstr "Комментарии будут импортированы в течении 15 минут"
+
+#~ msgid "Counter comments"
+#~ msgstr "Счетчик комментариев"
+
+#~ msgid "Manager"
+#~ msgstr "Управление"
+
+#~ msgid "Select the plug-ins:"
+#~ msgstr "Выберите плагины:"
+
+#~ msgid "Topics:"
+#~ msgstr "Топики:"
+
+#~ msgid "Authors:"
+#~ msgstr "Авторы:"
+
+#~ msgid "ID/class element for hyper comments (examle: #idname or .classname):"
+#~ msgstr ""
+#~ "ID/class элемента для гиперкомментариев (например: #idname или ."
+#~ "classname )"
+
+#~ msgid "Limit comments per page:"
+#~ msgstr "Количество комментариев на странице"
+
+#~ msgid "Select a theme:"
+#~ msgstr "Выберите тему оформления"
+
+#~ msgid "GET-parameters taken into account:"
+#~ msgstr "Учитывать GET-параметры"
+
+#~ msgid "Export comments to Facebook"
+#~ msgstr "Экспорт комментариев с Facebook"

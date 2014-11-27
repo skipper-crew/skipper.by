@@ -1,0 +1,226 @@
+/*
+Theme Name: Universal Web
+Author URI: http://webmotive.pl/strony-internetowe
+Theme URI:
+Description: Universal, modern and very functional theme with optimized/light code.
+Author: WebMotive
+Version: 1.6
+Tags: black, orange, light, two-columns, fixed-width, editor-style
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Reset browser styles
+------------------------------------------ */
+* {margin: 0; padding: 0}
+html {min-height: 100%; padding-bottom: 1px; overflow: scroll;}
+body {background: #fff; color: #666; font: 0.75em/1.5 "Arial", "Helvetica", sans-serif; }
+[class] {list-style: none; padding: 0}
+h1, h2, h3, h4, h5, h6 {font-size: 1em}
+dt {font-weight: 700}
+table {border-collapse: collapse}
+img {border: none; vertical-align: middle}
+a {color: #ff7200; text-decoration: none; outline: none; cursor: pointer}
+a:hover {color: #000; text-decoration: underline}
+textarea, input, select, option, optgroup, button {font: 1em "Arial", "Helvetica", sans-serif}
+button, [type="radio"], [type="checkbox"], [type="submit"], [type="button"], [type="reset"], label[for], select {cursor: pointer}
+input, select, textarea {outline: none}
+fieldset {overflow: hidden; border: none;}
+legend {display: none;}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"]>input[type="button"]::-moz-focus-inner {padding: 0; border: none}
+
+
+/* Global Styles
+------------------------------------------ */
+
+h1 {margin: 0 0 10px; color: #ff7200; font: normal 2.083em Georgia,sans-serif;}
+h2 {margin: 1em 0; padding-bottom: 5px; color: #000; font: normal 1.833em Georgia,sans-serif;}
+h3 {margin: 1em 0 0; font: normal 1.7em Georgia,sans-serif;}
+h4 {margin: 1em 0 0; font: normal 1.5em Georgia,sans-serif;}
+h5 {margin: 1em 0 0; font-weight: normal 1.25em Georgia,sans-serif;;}
+h6 {margin: 1em 0 0; font-normal: 1.167em Georgia,sans-serif;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-family: Georgia,sans-serif; text-decoration: none;}
+h2 a {font-family: Georgia,sans-serif;}
+h2 a:hover {color: #000; text-decoration: none;}
+blockquote {margin: 1.5em 0; padding: 10px 20px 10px 70px; border: 1px solid #dbdbdb; border-radius: 5px; background: #f8f8f8 url("images/quotes.png") 15px 15px no-repeat; font-style: italic;}
+sub, sup {line-height: 1em;}
+ul li, ol li {margin: 5px 20px;}
+dl {overflow: hidden; margin: 1em 0; }
+dt {float: left; clear: left; width: 150px; margin: 0 0 1em; padding: 0; font-weight: bold;}
+dd {width: 500px; margin: 0 0 1em 150px; }
+p {margin: 1em 0;}
+table {margin: 1em auto; border: 1px solid #dbdbdb; border-radius: 5px; }
+table th, table th[class] {padding: 5px 10px; border: 1px solid #dbdbdb; background: #f3f3f3;}
+table td, table td[class] {padding: 5px 10px; border: 1px solid #dbdbdb;}
+table tr.alternate td {background: #fafafa;}
+
+form, form[class] {margin: 1.5em 0; padding: 10px 20px; border: 1px solid #dbdbdb; border-radius: 5px; background: #f8f8f8;}
+label {float: left; clear: left; width: 150px; padding: 5px 0; font-weight: bold;}
+input, select, select[class], textarea {width: 300px; margin: 5px 0; padding: 5px 10px; border: 1px solid #dbdbdb; border-radius: 3px; background: #fff url("images/input.png") top repeat-x; vertical-align: middle; }
+select option {padding: 0 5px; }
+input[type="radio"], input[type="checkbox"], input[type="submit"] {width: auto; border: none; background: none;}
+span.required {padding: 0 5px; color: #ff7200; font-weight: bold; font-size: 1.333em;}
+textarea {width: 95%; min-width: 95%; max-width: 95%; height: 100px;}
+p.form-submit, p.form-allowed-tags {margin-left: 150px;}
+button, input[type="submit"] {height: 24px; padding: 0 15px; border:1px solid #fff; border-radius: 3px; background: #333 url("images/button.png") top repeat-x; color: #fff; font: normal 1.25em/25px Georgia,sans-serif; vertical-align: middle; box-shadow: 0 0 3px #949494;}
+.searchform button {overflow: hidden; width: 30px; height: 30px; margin: 0; padding: 0;  border: none; text-indent: -500em; box-shadow: none;}
+.content .searchform button {width: 24px; height: 24px; margin-left: 5px; background: url("images/search-button.png") center center no-repeat; border:1px solid #fff;  border-radius: 3px; box-shadow: 0 0 3px #949494;}
+
+/* Main Layout
+------------------------------------------ */
+body {min-width: 980px; background: #fff;}
+
+.header {background: #333 url("images/header.png") bottom repeat-x;}
+.header>div {width: 960px; margin: 0 auto; padding: 10px 0 2px; background: url("images/light.png") center top no-repeat;}
+.header p {margin: 0;}
+.header p.title {margin: 15px 0 0; padding: 0; color: #fff; font: normal 2.5em/1em Georgia,sans-serif;}
+.header p.title a {color: #fff; font-family: Georgia,sans-serif;}
+.header p.title a:hover {color: #91dfff; text-decoration: none;}
+.header p.tagline {margin: 0 0 25px; padding: 0; color: #fff; font: normal 1.333em Georgia,sans-serif;}
+.header form {float: right; width: 205px; height: 36px; margin: 15px 0 0 50px; padding: 0; border: none; background: url("images/search.png");}
+.header form input {width: 155px; margin-left: 5px; padding: 6px 5px; border: none; background: transparent;}
+.header form button {background: transparent; vertical-align: middle; }
+
+ul.menu {list-style: none; margin: 0; padding: 0; min-height: 30px; font-size: 1.25em;}
+ul.menu>li {float: left; position: relative; overflow: hidden; height: 30px; margin: 0; padding: 0 0 0 2px; background: url("images/mms.png") 0 center no-repeat;}
+ul.menu>li:first-child {padding-left: 0; background: none;}
+ul.menu>li:hover {overflow: visible; z-index: 150;}
+ul.menu>li>a {float: left; height: 30px; padding: 0 15px; background: url("images/mm.png") center -50px no-repeat; color: #c9c9c9; font-family: Georgia,sans-serif; line-height: 30px;}
+ul.menu>li>a:hover, ul.menu>li:hover>a, ul.menu>li.current-menu-item>a, ul.menu>li.current_page_item>a {padding: 0 15px; background-position: center bottom; color: #91dfff; text-decoration: none;}
+ul.menu>li ul {position: absolute; left: 0; top: 30px; width: 200px; list-style: none; margin: 0; background: #fff; box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);}
+ul.menu>li ul li {float: none; position: relative; overflow: hidden; margin: 0; padding: 0;}
+ul.menu>li ul li:hover {overflow: visible;}
+ul.menu>li ul li a {display: block; padding: 5px 15px; border-bottom: 1px solid #ddd; color: #999; font-family: Georgia,sans-serif;}
+ul.menu>li ul li a:hover, ul.menu>li ul li:hover>a {background: #91dfff; color: #fff; text-decoration: none;}
+ul.menu>li ul li:first-child>a {border-top: none;}
+ul.menu>li ul li ul {top: 0; left: 200px; font-size: 1em;}
+
+.content {padding: 30px 0; background: url("images/body.png") top repeat-x;}
+.content>div {overflow: hidden; width: 960px; margin: 0 auto;}
+.main {float: left; overflow: hidden; width: 630px;}
+.main>h1 {margin-bottom: 1.5em;}
+.main.post {width: 630px;}
+.main.post>h1 {margin: 0 0 10px;}
+.sidebar {float: right; width: 304px;}
+
+.footer {width: 960px; margin: 0 auto; padding: 10px 0 20px; background: url("images/footer.png") center top no-repeat;}
+.footer p {margin: 0; color: #999; font-size: 0.917em; line-height: 1.5em; text-align: center;}
+.footer p a {color: #999;}
+.footer p a:hover {color: #333;}
+.footer ul.menu {overflow: hidden; margin-bottom: 10px; font-size: 1em; text-align: center;}
+.footer ul.menu li {display: inline; float: none; padding: 0; border-left: 1px solid #ccc; background: transparent; }
+.footer ul.menu li:first-child {border-left: none;}
+.footer ul.menu li a, .footer a {display: inline; float: none; color: #666; font: normal 1em "Arial",sans-serif; }
+.footer ul.menu li a:hover, .footer a:hover {color: #006396;}
+
+/* sidebar
+------------------------------------------ */
+.widget {margin-bottom: 2em; padding: 6px 20px; background: url("images/sidebox.png") center top no-repeat;}
+.widget select {width: 230px; margin: 5px 0;}
+.sidebar h3 {margin: 5px 0 15px; color: #666; font: normal 1.5em/30px Georgia, sans-serif;}
+.sidebar ul {list-style: none; margin: 0; padding: 0;}
+.sidebar ul li {margin: 0; padding: 5px 0; border-top: 1px solid #dbdbdb; color: #666;}
+.sidebar ul li.current-menu-item>a, .sidebar ul li.current_page_item>a, .sidebar ul li.current-cat>a,
+.sidebar ul li.current-menu-item>a:visited, .sidebar ul li.current_page_item>a:visited, .sidebar ul li.current-cat>a:visited {font-weight: bold; color: #333;}
+.sidebar a {color: #006396;}
+.sidebar a:visited, .sidebar .tagcloud a:visited {color: #65a4c4;}
+.sidebar a:hover {color: #ff7200; text-decoration: none;}
+.sidebar ul li ul {margin: 5px 0 -5px;}
+.sidebar ul ul li {padding-left: 15px;}
+.sidebar ul ul ul li {padding-left: 30px;}
+
+.sidebar form {width: 260px; margin: 15px 0 0; padding: 0; border: none; background: none; }
+.sidebar form input {width: 205px;}
+
+
+/* post styles
+------------------------------------------ */
+div.post, div.page {clear: both; overflow: hidden; margin-bottom: 30px; padding: 0 0 15px; background: url("images/post-bottom.png") center bottom no-repeat;}
+div.post h2, div.page h2 {margin: 1em 0 10px; padding: 0;}
+div.post h2:first-child, div.page h2:first-child {margin-top: 0;}
+div.post.sticky p {color: #333;}
+p.post-meta {margin: -5px 0 0 -10px; padding: 0 5px; color: #999; font-size: 0.917em; line-height: 22px;}
+p.post-meta span {padding: 3px 0 3px 25px; background: url("images/icons.png") no-repeat; color: #999; line-height: 22px;}
+p.post-meta span.date {background-position: 5px 0;}
+p.post-meta span.author {background-position: 5px -20px;}
+p.post-meta span.cats {background-position: 5px -40px;}
+p.post-meta span.comments {background-position: 5px -60px;}
+p.post-meta a {color: #999;}
+p.post-meta a:hover {color: #ff7200; text-decoration: none;}
+p.tags {float: left; clear: none; margin-top: 0.5em; margin-bottom: 5px; padding: 0 10px 0 5px; color: #999; font-size: 0.917em; line-height: 22px;}
+p.tags span {padding: 3px 0 3px 25px; background: url("images/icons.png") 0 -80px no-repeat; color: #999;}
+p.tags a {color: #999;}
+p.tags a:hover {color: #ff7200; text-decoration: none;}
+p.more {float: right; margin-top: 0.5em; padding-left: 30px; }
+p.more a {float: right; overflow: hidden; width: 30px; height: 20px; padding: 0; background: url("images/icons.png") 0 -100px no-repeat; text-indent: -90em;}
+.post img.attachment-post-thumbnail {float: left; margin: 10px 10px 10px 0;}
+
+.main label {float: none;}
+
+/* comments
+------------------------------------------ */
+.comments {clear: both;}
+.comments label {float: left;}
+ul.commentlist {margin: 1em 0;}
+ul.commentlist li {overflow: hidden; margin: 1em 0 0; padding: 15px; border: none; border-radius: 5px 5px 0 0; background: #f8f8f8 url("images/comment-bottom.png") center bottom no-repeat;}
+ul.commentlist li li {clear: both; margin: 0 0 15px; border: 1px solid #ddd; border-radius: 5px;  background: #fff;}
+ul.commentlist ul {clear: both;}
+img.avatar {float: left; margin: 0 10px 0 0; padding: 2px; border: 1px solid #dbdbdb; border-radius: 5px; background: #f8f8f8;}
+.comments li form, .comments li form[class] {background: #fff;}
+.reply {float: right; overflow: hidden; }
+.reply a {float: right; margin-bottom: 15px; padding-left: 25px; background: url("images/icons.png") 5px -160px no-repeat;}
+ul.commentlist li .comment-body ul {margin: 1em 0; list-style: disc;}
+ul.commentlist li .comment-body ol {margin: 1em 0; list-style: decimal;}
+ul.commentlist li .comment-body li {overflow: visible; margin: 0 0 0 20px; padding: 0; border: none; background: transparent;}
+.comment-meta, .comment-author-vcard {font-size: 0.923em;}
+a#cancel-comment-reply-link {font-size: 0.75em;}
+a.comment-reply-link {color: #999; font-size: 1em; font-family: Georgia,sans-serif;}
+a.comment-reply-link:hover {color: #333;}
+
+/* misc
+------------------------------------------ */
+
+.clear {height: 0; margin: 0; padding: 0; clear: both; float: none; overflow: hidden; border: none;}
+.alignleft {float: left; margin: 5px 15px 5px 0; padding: 0; }
+.alignright {float: right; margin: 5px 0 5px 15px; padding: 0; }
+.aligncenter {display: block; margin: 1em auto; text-align: center;}
+.wp-caption-text {margin: 0.5em 0; color: #666; font-size: 0.917em;}
+.nocomments {clear: both;}
+img.size-thumbnail {margin: 5px;}
+a.post-edit-link {font-size: 0.5em;}
+img {margin: 0; max-width: 630px; height: auto;}
+img.attachment-post-thumbnail, img.attachment-thumbnail {padding: 2px; border: 1px solid #dbdbdb; border-radius: 5px; }
+a:hover img.attachment-post-thumbnail, a:hover img.attachment-thumbnail {border-color: #006396;}
+embed {max-width: 630px;}
+.wp-caption img, .wp-caption embed {max-width: 610px;}
+label+.required {margin-left: -15px;}
+
+.gallery {overflow: hidden; padding: 1.5em 0;}
+.gallery dl {text-align: center;}
+.gallery dl dt {float: none; width: auto;}
+.gallery dl dd {clear: left; width: auto; margin: 0; text-align: center;}
+.gallery a img, .gallery a img[class] {padding: 2px; border: 1px solid #dbdbdb !important; border-radius: 5px; background: transparent;}
+.gallery a:hover img {border-color: #006396 !important;}
+[id*="gallery"] img {border: 1px solid #dbdbdb; border-radius: 5px;}
+
+.wp-caption {max-width: 618px;}
+.wp-caption, .gallery-caption {padding: 10px 5px 5px; border: 1px solid #dbdbdb; border-radius: 5px; background: #f8f8f8; text-align: center;}
+
+p.pagination {overflow: hidden; clear: both; margin: 15px 0; padding: 0 15px; border-radius: 5px; background: url("images/pagination.png") center top no-repeat;}
+p.pagination a {height: 22px; margin: 10px 0; background: url("images/icons.png") no-repeat; font: normal 1.083em/22px Georgia,sans-serif;}
+p.pagination a:hover {color: #000; text-decoration: none;}
+p.pagination .prev a {float: left; padding: 0 0 0 15px; background-position: 0 -140px;  }
+p.pagination .next a {float: right; padding: 0 15px 0 0; background-position: 100% -120px;}
+p.pages {clear: both;}
+
+p label {display: inline; margin-bottom: 0;}
+.main h3, .main h2 {clear: both;}
+p.comment-form-comment label {display: block; float: left;}
+
+.gallery-caption {position: static;}
+.bypostauthor {position: static;}

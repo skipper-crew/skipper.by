@@ -1,0 +1,74 @@
+# Translation of the WordPress plugin Advanced Edit Cforms 1.0 by Amaury Balmer.
+# Copyright (C) 2010 Amaury Balmer
+# This file is distributed under the same license as the Advanced Edit Cforms package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Edit Cforms 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-17 22:36+0100\n"
+"PO-Revision-Date: 2010-06-17 22:38+0100\n"
+"Last-Translator: Amaury Balmer <amaury@wordpress-fr.net>\n"
+"Language-Team: BeAPI <amaury@beapi.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+
+#: advanced-edit-cforms.php:50
+msgid "Adv Edit Cforms"
+msgstr "Edition avancée de Cforms"
+
+#: advanced-edit-cforms.php:62
+msgid "You cannot edit the Advanced Cforms options."
+msgstr "Vous ne pouvez pas éditer les options de Cforms."
+
+#: advanced-edit-cforms.php:96
+msgid "Options updated with succes !"
+msgstr "Les modifications ont été pris en compte avec succès !"
+
+#: advanced-edit-cforms.php:104
+msgid "Advanced Edit Cforms Options"
+msgstr "Edition avancée des réglages Cforms"
+
+#: advanced-edit-cforms.php:135
+msgid "No options available on your database. Have you already install Cforms on your WordPress ?"
+msgstr "Aucune option disponible dans votre base de données. Avez-vous déjà installé Cforms sur votre installation WordPress ?"
+
+#: advanced-edit-cforms.php:142
+msgid "Abs Path File"
+msgstr "Chemin absolu du plugin"
+
+#: advanced-edit-cforms.php:147
+#: advanced-edit-cforms.php:166
+msgid "File not writeable."
+msgstr "Le fichier n'est pas accessible en écriture."
+
+#: advanced-edit-cforms.php:161
+msgid "JS File (sAJAX uri)"
+msgstr "Fichier JavaScript (sAJAX uri)"
+
+#: advanced-edit-cforms.php:186
+msgid "Save Settings"
+msgstr "Enregistrer les modifications"
+
+#~ msgid "Advanced Edit Cforms"
+#~ msgstr "Edition avancée de Cforms"
+
+#~ msgid "http://www.beapi.fr/"
+#~ msgstr "http://www.beapi.fr/"
+
+#~ msgid ""
+#~ "Allow to edit some parameters of Cforms as hardcoded variable and base "
+#~ "url ! Very useful when you move or rename a WordPress blog."
+#~ msgstr ""
+#~ "Permet de modifier plusieurs paramètres de Cforms comme les variables "
+#~ "inscrites en dur dans les fichiers. Très utile lorsque vous souhaitez "
+#~ "déplacer ou renommer un blog WordPress"
+
+#~ msgid "Amaury Balmer"
+#~ msgstr "Amaury Balmer"
